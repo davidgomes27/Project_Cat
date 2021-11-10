@@ -51,7 +51,7 @@ export default function Header() {
         <S.Container>
             <S.BoxLogo>
                 <S.BoxIMG>
-                    <img style={{width:'100%', height:'100%'}} src={logoCat.url} alt="imagem de um gato"/>
+                    <img style={{ width: '100%', height: '100%' }} src={logoCat.url} alt="imagem de um gato" />
                 </S.BoxIMG>
                 <S.BoxTextLogo>
                     <spam className="spam1">{titlelogo}</spam>
@@ -59,12 +59,27 @@ export default function Header() {
                 </S.BoxTextLogo>
             </S.BoxLogo>
             <S.BoxNav>
-                <S.HypperLink href="">{btnhome}</S.HypperLink>
-                <S.HypperLink href="">{btnaboutus}</S.HypperLink>
-                <S.HypperLink href="">{btnourservices}</S.HypperLink>
-                <S.HypperLink href="">{btnreservation}</S.HypperLink>
-                <S.HypperLink href="">{btncontactus}</S.HypperLink>
-                <S.HypperLink href=""><img style={{width:'27%', padding:'0 1rem'}} src={icontell.url}/>{btnnumber}</S.HypperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href="">{btnhome}</S.HypperLink>
+                </S.BoxHyperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href="">{btnaboutus}</S.HypperLink>
+                </S.BoxHyperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href="">{btnourservices}</S.HypperLink>
+                </S.BoxHyperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href="">{btnreservation}</S.HypperLink>
+                </S.BoxHyperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href="">{btncontactus}</S.HypperLink>
+                </S.BoxHyperLink>
+                <S.BoxHyperLink>
+                    <S.HypperLink href=""><img style={{ width: '27%', padding: '0 1rem' }} src={icontell.url} />{btnnumber}</S.HypperLink>
+                </S.BoxHyperLink>
+
+
+
             </S.BoxNav>
         </S.Container>
     )

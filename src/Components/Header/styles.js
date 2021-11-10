@@ -10,6 +10,8 @@ export const Container = styled.section`
     position: fixed;
     background-color: #fff;
     box-shadow: 0px 3px 6px #00000029;
+    z-index: 999999;
+    top: 0px;
     
 
 `
@@ -63,14 +65,20 @@ export const BoxNav = styled.div`
     gap: 4rem;
 `
 
+
+export const BoxHyperLink = styled.div`
+
+
+`
 export const HypperLink = styled.a`
     color: #000;
     font-size: 115%;
     text-decoration: none;
-    transition: 500ms;
-    transition-delay: 0s;
+    
+    
     &:hover{
-        font-size: 125%;
+        border-bottom: #000 solid 0.500px;
+        transition: 3s;
     }
 
 
