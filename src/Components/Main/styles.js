@@ -7,7 +7,7 @@ export const Container = styled.section`
 
 `
 
-export const SectionCatBGC = styled.div`
+export const SectionCatBGC = styled.section`
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -74,4 +74,68 @@ export const HyperLink = styled.a`
         text-shadow: 5px 0px 2px rgba(149, 150, 150, 1);
     }
 
+`
+
+export const SectionServices = styled.section`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    padding: 5rem 0;
+
+
+`
+
+export const BoxCardsServices = styled.div`
+    width: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+`
+
+export const CardService = styled.div`
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.70rem;
+
+    .BoxIMG{
+        
+        width: 100%;
+        height: 200px;
+        
+    }
+
+    .Text{
+        color: #373737;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .HyperLink{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        width: 195px;
+        height: 53px;
+        background: #FEAF02 0% 0%;
+        border-radius: 4px;
+        transition: 1s;
+        
+
+        &:hover{
+            -webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+            -moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+            box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+            text-shadow: 5px 0px 2px rgba(149, 150, 150, 1);
+        }
+    }
 `

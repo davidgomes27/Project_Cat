@@ -62,7 +62,7 @@ export const BoxNav = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
 `
 
 
@@ -72,9 +72,10 @@ export const BoxHyperLink = styled.div`
 `
 export const HypperLink = styled.a`
     color: #000;
-    font-size: 115%;
+    font-size: 16px;
     text-decoration: none;
-    
+    color: #373737;
+    text-transform: uppercase;
     
     &:hover{
         border-bottom: #000 solid 0.500px;
