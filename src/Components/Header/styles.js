@@ -78,7 +78,7 @@ export const HypperLink = styled.a`
     
     &:hover{
         border-bottom: #000 solid 0.500px;
-        transition: 3s;
+        
     }
 
 

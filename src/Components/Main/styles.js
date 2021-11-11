@@ -8,7 +8,7 @@ export const Container = styled.section`
 `
 
 export const SectionCatBGC = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,21 +21,34 @@ export const ContainerIntro = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+    padding-right: 5%;
     
     .Title{
-        color: #6D4545;
+        color: #472d2d;
         font-size: 56px;
+        height: 10%;
         text-transform: uppercase;
         font-weight: bolder;
     }
 
     .Subtitle{
-
+        
+        color: #472d2d;
+        font-size: 48px;
+        height: 9%;
+        text-transform: capitalize;
+        
     }
 
     .Lorem{
-
+        display: flex;
+        color: #472d2d;
+        width: 38%;
+        height: 20%;
+        font-size: 24px;
+        text-align: right;
+        
     }
 
 `
@@ -48,5 +61,17 @@ export const HyperLink = styled.a`
     width: 324px;
     height: 78px;
     background-color: #FEAF02;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+    border-radius: 4px;
+
+    &:hover{
+        -webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+        -moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+        box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.67);
+
+        text-shadow: 5px 0px 2px rgba(149, 150, 150, 1);
+    }
 
 `
