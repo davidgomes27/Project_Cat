@@ -106,28 +106,28 @@ export default function Main() {
         <S.BoxCardsServices>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%', height: '100%' }} src={imgmain1.url} alt="imagem de um gato" />
+              <img src={imgmain1.url} alt="imagem de um gato" />
             </div>
             <span className="Text">{titleboarding}</span>
             <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%', height: '100%' }} src={imgmain2.url} alt="imagem de um gato" />
+              <img src={imgmain2.url} alt="imagem de um gato" />
             </div>
             <span className="Text">{titledaycare}</span>
             <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%', height: '100%' }} src={imgmain3.url} alt="imagem de um gato" />
+              <img src={imgmain3.url} alt="imagem de um gato" />
             </div>
             <span className="Text">{titletraining}</span>
             <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%', height: '100%' }} src={imgmain4.url} alt="imagem de um gato" />
+              <img src={imgmain4.url} alt="imagem de um gato" />
             </div>
             <span className="Text">{titlegrooming}</span>
             <a className="HyperLink" href="">{titlelearnmore}</a>
