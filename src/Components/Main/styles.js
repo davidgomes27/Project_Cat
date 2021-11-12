@@ -139,3 +139,51 @@ export const CardService = styled.div`
         }
     }
 `
+
+export const SectionInfoCatHouse = styled.section`
+    width: 100%;
+    background-color: #00000029;
+    
+`
+
+export const BoxContainerInfoCatHouse = styled.div`
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+
+
+`
+
+export const BoxTextInfoCat = styled.div`
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+`
+
+
+export const BoxListInfoCat = styled.div`
+    width: 50%;
+
+`
+
+
+export const BoxPoniterYellow = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    .BoxIMG_Pointer_Yellow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.500rem 0 0;
+    }
+
+`

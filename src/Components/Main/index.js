@@ -94,46 +94,80 @@ export default function Main() {
 
   return (
     <S.Container>
-      <S.SectionCatBGC back={ backgroundimgmain.url }>
+      <S.SectionCatBGC back={backgroundimgmain.url}>
         <S.ContainerIntro>
-          <span className="Title">{ titlecathouse }</span>
-          <span className="Subtitle">{ subtitlecatdaycare }</span>
-          <span className="Lorem">{ subtitlewhycathouse }</span>
-          <S.HyperLink href="">{ btnreservenow }</S.HyperLink>
+          <span className="Title">{titlecathouse}</span>
+          <span className="Subtitle">{subtitlecatdaycare}</span>
+          <span className="Lorem">{subtitlewhycathouse}</span>
+          <S.HyperLink href="">{btnreservenow}</S.HyperLink>
         </S.ContainerIntro>
       </S.SectionCatBGC>
       <S.SectionServices>
         <S.BoxCardsServices>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%',height:'100%' }} src={ imgmain1.url } alt="imagem de um gato" />
+              <img style={{ width: '100%', height: '100%' }} src={imgmain1.url} alt="imagem de um gato" />
             </div>
-            <span className="Text">{ titleboarding }</span>
+            <span className="Text">{titleboarding}</span>
             <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%' ,height:'100%' }} src={ imgmain2.url } alt="imagem de um gato" />
+              <img style={{ width: '100%', height: '100%' }} src={imgmain2.url} alt="imagem de um gato" />
             </div>
-            <span className="Text">{ titledaycare }</span>
-            <a className="HyperLink" href="">{ titlelearnmore }</a>
+            <span className="Text">{titledaycare}</span>
+            <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%' ,height:'100%'}} src={ imgmain3.url } alt="imagem de um gato" />
+              <img style={{ width: '100%', height: '100%' }} src={imgmain3.url} alt="imagem de um gato" />
             </div>
-            <span className="Text">{ titletraining }</span>
-            <a className="HyperLink" href="">{ titlelearnmore }</a>
+            <span className="Text">{titletraining}</span>
+            <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
           <S.CardService>
             <div className="BoxIMG">
-              <img style={{ width: '100%' ,height:'100%' }} src={ imgmain4.url } alt="imagem de um gato" />
+              <img style={{ width: '100%', height: '100%' }} src={imgmain4.url} alt="imagem de um gato" />
             </div>
-            <span className="Text">{ titlegrooming }</span>
-            <a className="HyperLink" href="">{ titlelearnmore }</a>
+            <span className="Text">{titlegrooming}</span>
+            <a className="HyperLink" href="">{titlelearnmore}</a>
           </S.CardService>
         </S.BoxCardsServices>
       </S.SectionServices>
+      <S.SectionInfoCatHouse>
+        <S.BoxContainerInfoCatHouse>
+          <S.BoxTextInfoCat>
+            <span>{titlewhycathouse}</span>
+            <span>{subtitlewhycathouse}</span>
+          </S.BoxTextInfoCat>
+          <S.BoxListInfoCat>
+            <S.BoxPoniterYellow>
+              <div className="BoxIMG_Pointer_Yellow">
+                <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
+              </div>
+              <span>{titleloremconsectur}</span>
+            </S.BoxPoniterYellow>
+            <S.BoxPoniterYellow>
+              <div className="BoxIMG_Pointer_Yellow">
+                <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
+              </div>
+              <span>{titleloremamet}</span>
+            </S.BoxPoniterYellow>
+            <S.BoxPoniterYellow>
+              <div className="BoxIMG_Pointer_Yellow">
+                <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
+              </div>
+              <span>{titleloremelit}</span>
+            </S.BoxPoniterYellow>
+            <S.BoxPoniterYellow>
+              <div className="BoxIMG_Pointer_Yellow">
+                <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
+              </div>
+              <span>{titleloremsit}</span>
+            </S.BoxPoniterYellow>
+          </S.BoxListInfoCat>
+        </S.BoxContainerInfoCatHouse>
+      </S.SectionInfoCatHouse>
     </S.Container>
   )
 }
