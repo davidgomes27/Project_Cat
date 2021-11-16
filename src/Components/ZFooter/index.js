@@ -9,7 +9,9 @@ export default function Footer() {
 
     return (
         <S.Container>
-            
+            <div>
+                
+            </div>
         </S.Container>
     )
 }

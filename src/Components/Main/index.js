@@ -9,53 +9,51 @@ export default function Main() {
         query{
             alldata{
                 mains{
-
-                    btnreservenow
-                    backgroundimgmain {
-                      url
-                    }
-                    imgmain1 {
-                      url
-                    }
-                    imgmain2 {
-                      url
-                    }
-                    imgmain3 {
-                      url
-                    }
-                    imgmain4 {
-                      url
-                    }
-                    imgvideofake1 {
-                      url
-                    }
-                    imgvideofake2 {
-                      url
-                    }
-                    pontoamarelo {
-                      url
-                    }
-                    subtitlecatdaycare
-                    subtitlewhycathouse
-                    titleboarding
-                    titlecathouse
-                    titledaycare
-                    titlegrooming
-                    titlejanedoe
-                    titleloremamet
-                    titleloremconsectur
-                    titleloremelit
-                    titleloremsit
-                    titletraining
-                    titlewhatourcustomersay
-                    iconplay {
-                      url
-                    }
-                    titlewhycathouse
-                    titlelearnmore
-
+                  btnreservenow
+                  backgroundimgmain {
+                    url
+                  }
+                  imgmain1 {
+                    url
+                  }
+                  imgmain2 {
+                    url
+                  }
+                  imgmain3 {
+                    url
+                  }
+                  imgmain4 {
+                    url
+                  }
+                  imgvideofake1 {
+                    url
+                  }
+                  imgvideofake2 {
+                    url
+                  }
+                  pontoamarelo {
+                    url
+                  }
+                  subtitlecatdaycare
+                  subtitlewhycathouse
+                  titleboarding
+                  titlecathouse
+                  titledaycare
+                  titlegrooming
+                  titlejanedoe
+                  titleloremamet
+                  titleloremconsectur
+                  titleloremelit
+                  titleloremsit
+                  titletraining
+                  titlewhatourcustomersay
+                  iconplay {
+                    url
+                  }
+                  titlewhycathouse
+                  titlelearnmore
                 }
-            }
+          }
         }
     
     `)
@@ -137,37 +135,62 @@ export default function Main() {
       <S.SectionInfoCatHouse>
         <S.BoxContainerInfoCatHouse>
           <S.BoxTextInfoCat>
-            <span>{titlewhycathouse}</span>
-            <span>{subtitlewhycathouse}</span>
+            <span className="Title">{titlewhycathouse}</span>
+            <span className="SubTitle">{subtitlewhycathouse}</span>
           </S.BoxTextInfoCat>
           <S.BoxListInfoCat>
             <S.BoxPoniterYellow>
               <div className="BoxIMG_Pointer_Yellow">
                 <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
               </div>
-              <span>{titleloremconsectur}</span>
+              <span className="TextLorem">{titleloremconsectur}</span>
             </S.BoxPoniterYellow>
             <S.BoxPoniterYellow>
               <div className="BoxIMG_Pointer_Yellow">
                 <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
               </div>
-              <span>{titleloremamet}</span>
+              <span className="TextLorem">{titleloremamet}</span>
             </S.BoxPoniterYellow>
             <S.BoxPoniterYellow>
               <div className="BoxIMG_Pointer_Yellow">
                 <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
               </div>
-              <span>{titleloremelit}</span>
+              <span className="TextLorem">{titleloremelit}</span>
             </S.BoxPoniterYellow>
             <S.BoxPoniterYellow>
               <div className="BoxIMG_Pointer_Yellow">
                 <img style={{ width: '100%', height: '100%' }} src={pontoamarelo.url} />
               </div>
-              <span>{titleloremsit}</span>
+              <span className="TextLorem">{titleloremsit}</span>
             </S.BoxPoniterYellow>
           </S.BoxListInfoCat>
         </S.BoxContainerInfoCatHouse>
       </S.SectionInfoCatHouse>
+      <S.SectionCatMovies>
+        <S.ContainerCatMovies>
+          <S.BoxTextCatMovie>
+            <p className="Title">{titlewhatourcustomersay}</p>
+          </S.BoxTextCatMovie>
+          <S.BoxCatMovie>
+            <div className="BoxMovie">
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O5zlRruXH4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div>
+                <span className="SubTitle">{titlejanedoe}</span>
+              </div>
+            </div>
+            <div className="BoxMovie">
+              <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gu1YMiIWg70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div>
+                <span className="SubTitle">{titlejanedoe}</span>
+              </div>
+            </div>
+          </S.BoxCatMovie>
+        </S.ContainerCatMovies>
+      </S.SectionCatMovies>
     </S.Container>
   )
 }

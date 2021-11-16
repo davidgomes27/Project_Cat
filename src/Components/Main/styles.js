@@ -12,6 +12,7 @@ export const SectionCatBGC = styled.section`
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 30%;
     background-image: url(${prop => prop.back});
 `
 
@@ -169,11 +170,27 @@ export const BoxTextInfoCat = styled.div`
     justify-content: center;
     align-items: self-start;
     flex-direction: column;
+    
+
+    .Title{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .SubTitle{
+        text-align: left;
+        font-size: 22px;
+        margin: 1rem 0;
+    }
 `
 
 
 export const BoxListInfoCat = styled.div`
-    width: 50%;
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 `
 
@@ -192,4 +209,73 @@ export const BoxPoniterYellow = styled.div`
         margin: 0 0.500rem 0 0;
     }
 
+    .TextLorem{
+        font-size: 22px;
+    }
+
 `
+
+export const SectionCatMovies = styled.section`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEAF02;
+    padding: 3rem 0;
+`
+
+export const ContainerCatMovies = styled.div`
+    width: 80%;
+    max-width: 1690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`
+
+export const BoxTextCatMovie = styled.div`
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+   
+
+    p:first-letter{
+        text-transform: uppercase;
+    }
+    .Title{
+        color: #fff;
+        font-size: 2em;
+    }
+
+
+    
+    
+
+`
+
+export const BoxCatMovie = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .BoxMovie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 0.500rem 0.500rem 1rem 0.500rem;
+    }
+
+    .SubTitle{
+        font-size: 1.300em;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+`
+
+
