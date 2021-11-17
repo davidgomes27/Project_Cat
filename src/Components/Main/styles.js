@@ -268,6 +268,9 @@ export const BoxCatMovie = styled.div`
         align-items: center;
         background-color: #fff;
         padding: 0.500rem 0.500rem 1rem 0.500rem;
+        box-shadow: 0px 8px 6px 0px rgba(13,12,12,0.71);
+        -webkit-box-shadow: 0px 8px 6px 0px rgba(13,12,12,0.71);
+        -moz-box-shadow: 0px 8px 6px 0px rgba(13,12,12,0.71);
     }
 
     .SubTitle{
