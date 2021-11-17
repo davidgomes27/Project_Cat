@@ -31,6 +31,35 @@ export const ContainerIntro = styled.div`
         height: 10%;
         text-transform: uppercase;
         font-weight: bolder;
+        
+        border-left: 1px solid #000;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .Typing_Animation{
+        animation: 
+        blinkborder 500ms steps(40) infinite normal,
+        title 4s steps(40) 1 normal;
+        
+    }
+
+    @keyframes blinkborder {
+        0%{
+            border-left: 1px solid #000;
+        }
+        100%{
+            border-left: transparent;
+        }
+    }
+
+    @keyframes title {
+        100%{
+            width: 21%;
+        }
+        0%{
+            width: 0%;
+        }
     }
 
     .Subtitle{

@@ -94,7 +94,7 @@ export default function Main() {
     <S.Container id = "Home" >
       <S.SectionCatBGC  back={backgroundimgmain.url}>
         <S.ContainerIntro>
-          <span className="Title">{titlecathouse}</span>
+          <span className="Title Typing_Animation">{titlecathouse}</span>
           <span className="Subtitle">{subtitlecatdaycare}</span>
           <span className="Lorem">{subtitlewhycathouse}</span>
           <S.HyperLink href="">{btnreservenow}</S.HyperLink>
