@@ -60,19 +60,19 @@ export default function Header() {
             </S.BoxLogo>
             <S.BoxNav>
                 <S.BoxHyperLink>
-                    <S.HypperLink href="">{btnhome}</S.HypperLink>
+                    <S.HypperLink href="#Home">{btnhome}</S.HypperLink>
                 </S.BoxHyperLink>
                 <S.BoxHyperLink>
-                    <S.HypperLink href="">{btnaboutus}</S.HypperLink>
+                    <S.HypperLink href="#AboutUs">{btnaboutus}</S.HypperLink>
                 </S.BoxHyperLink>
                 <S.BoxHyperLink>
-                    <S.HypperLink href="">{btnourservices}</S.HypperLink>
+                    <S.HypperLink href="#OurService">{btnourservices}</S.HypperLink>
                 </S.BoxHyperLink>
                 <S.BoxHyperLink>
-                    <S.HypperLink href="">{btnreservation}</S.HypperLink>
+                    <S.HypperLink href="#Reservation">{btnreservation}</S.HypperLink>
                 </S.BoxHyperLink>
                 <S.BoxHyperLink>
-                    <S.HypperLink href="">{btncontactus}</S.HypperLink>
+                    <S.HypperLink href="#Contactus">{btncontactus}</S.HypperLink>
                 </S.BoxHyperLink>
                 <S.BoxHyperLink>
                     <S.HypperLink href=""><img style={{ width: '27%', padding: '0 1rem' }} src={icontell.url} />{btnnumber}</S.HypperLink>

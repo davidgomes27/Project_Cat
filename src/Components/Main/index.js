@@ -91,8 +91,8 @@ export default function Main() {
 
 
   return (
-    <S.Container>
-      <S.SectionCatBGC back={backgroundimgmain.url}>
+    <S.Container id = "Home" >
+      <S.SectionCatBGC  back={backgroundimgmain.url}>
         <S.ContainerIntro>
           <span className="Title">{titlecathouse}</span>
           <span className="Subtitle">{subtitlecatdaycare}</span>
@@ -100,7 +100,7 @@ export default function Main() {
           <S.HyperLink href="">{btnreservenow}</S.HyperLink>
         </S.ContainerIntro>
       </S.SectionCatBGC>
-      <S.SectionServices>
+      <S.SectionServices id = "OurService">
         <S.BoxCardsServices>
           <S.CardService>
             <div className="BoxIMG">
@@ -132,7 +132,7 @@ export default function Main() {
           </S.CardService>
         </S.BoxCardsServices>
       </S.SectionServices>
-      <S.SectionInfoCatHouse>
+      <S.SectionInfoCatHouse id = "AboutUs">
         <S.BoxContainerInfoCatHouse>
           <S.BoxTextInfoCat>
             <span className="Title">{titlewhycathouse}</span>
@@ -166,7 +166,7 @@ export default function Main() {
           </S.BoxListInfoCat>
         </S.BoxContainerInfoCatHouse>
       </S.SectionInfoCatHouse>
-      <S.SectionCatMovies>
+      <S.SectionCatMovies id = "Reservation">
         <S.ContainerCatMovies>
           <S.BoxTextCatMovie>
             <p className="Title">{titlewhatourcustomersay}</p>

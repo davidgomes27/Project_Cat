@@ -73,7 +73,7 @@ export default function Footer() {
 
 
     return (
-        <S.Container>
+        <S.Container id ="Contactus">
             <S.BoxSocial>
                 <S.BoxLogo >
                     <S.BoxIMGLOGO>
@@ -108,11 +108,11 @@ export default function Footer() {
                         <span className="TitleLinks">{titlequicklinks}</span>
                     </div>
                     <div className="BoxLinks">
-                        <S.HyperLinks href="">{btnhome}</S.HyperLinks>
-                        <S.HyperLinks href="">{btnaboutus}</S.HyperLinks>
-                        <S.HyperLinks href="">{ btnourservices}</S.HyperLinks>
-                        <S.HyperLinks href="">{btnreservation}</S.HyperLinks>
-                        <S.HyperLinks href="">{btncontactus}</S.HyperLinks>
+                        <S.HyperLinks href="#Home">{btnhome}</S.HyperLinks>
+                        <S.HyperLinks href="#AboutUs">{btnaboutus}</S.HyperLinks>
+                        <S.HyperLinks href="#OurService">{ btnourservices}</S.HyperLinks>
+                        <S.HyperLinks href="#Reservation">{btnreservation}</S.HyperLinks>
+                        <S.HyperLinks href="#Contactus">{btncontactus}</S.HyperLinks>
                     </div>
                 </S.BoxContacts>
                 <S.BoxContacts>
